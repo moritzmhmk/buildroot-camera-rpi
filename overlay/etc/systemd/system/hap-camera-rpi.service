@@ -2,7 +2,7 @@
 Description=HAP Camera RPi
 
 [Service]
-ExecStart=/usr/bin/node /lib/node_modules/homebridge-camera-rpi/standalone.js -c /etc/homebridge-camera-rpi.conf.json
+ExecStart=/usr/bin/node /lib/node_modules/homebridge-camera-rpi/standalone.js -c /boot/homebridge-camera-rpi.conf.json
 Restart=always
 RestartSec=10
 
